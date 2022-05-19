@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* utils */
+.vh-100{
+    height: 100vh;
+}
+/* general */
+.navigation{
+  display: inline-block;
+}
+.nav-menu{
+   display: flex;
+   position: fixed;
+    right: 0%;
+    top: 0%;
+}
+li{
+    padding: 5px;
+}
+a{
+    font-size: 15px;
+    display: inline-block;
+    color: #000;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+li > a:hover{
+    cursor: pointer;
+}
+body{
+    overflow: hidden;
+    background-color: transparent;
+  
+}
+
+ul{
+    list-style-type: none
+}
+a{
+    text-decoration: none;
+}
+/* body */
+
+.vans-page{
+    background-color: darkred;
+}
+
+.balenciaga-page{
+    background-color: darkgreen;
+}
+.converse-page{
+
+    background-color: goldenrod;
+}
