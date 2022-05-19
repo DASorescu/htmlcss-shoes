@@ -76,11 +76,10 @@ h2{
     text-align: center;
 }
 .vans{
-    display: flex;
-    flex-direction:column ;
     height: 400px;
     position:absolute;
     color: yellow;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
