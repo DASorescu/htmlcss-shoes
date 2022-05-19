@@ -55,6 +55,7 @@ a{
 /* body */
 
 .vans-page{
+    position: relative;
     background-color: darkred;
 }
 
@@ -64,4 +65,22 @@ a{
 .converse-page{
 
     background-color: goldenrod;
+}
+
+img{
+    display: block;
+    height: 100%;
+}
+
+h2{
+    text-align: center;
+}
+.vans{
+    display: flex;
+    flex-direction:column ;
+    height: 400px;
+    position:absolute;
+    color: yellow;
+    top: 0;
+    left: 0;
 }
